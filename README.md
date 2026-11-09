@@ -78,7 +78,7 @@ UTF-8 file / stdin
 - `frame_scope/core.py`：无 IO 副作用的单帧校验、流读取、完整性计数和统计。
 - `frame_scope/__main__.py`：参数、文件与标准流、输出格式、确定性演示生成器。
 - `tests/test_frames.py`：协议、恢复、数值边界、统计、计数与子进程 CLI 冒烟测试。
-- `assets/logo.svg`：本项目原创的括号/采样点矢量标志。
+- `assets/logo.svg`：括号/采样点矢量标志。
 - `examples/clean.ndjson`、`examples/mixed.ndjson`：由本项目生成器生成的可复现样例。
 
 ## 测试与边界
@@ -92,7 +92,3 @@ python -m frame_scope check examples/mixed.ndjson --format csv
 ```
 
 流式处理不保存全部帧；但为了精确判断非相邻重复，保存已见序号集合，内存随唯一序号数增长（O(U+C)）。不适合作为无限运行或不可信网络输入的防护服务。单行限制不是进程总内存限制，通道数受单行限制约束。没有 CRC、二进制解包、单位换算、物理校准、时间同步、真实设备验证或临床安全认证。实验操作前仍需独立验证采集链路。
-
-## 独立性与授权
-
-本项目为独立实现；未读取或复制其他项目的源码、文档或图形资产。协议、CLI、测试、中文说明和标志均为本项目编写。仅面向离线实验数据检查，分发采用 MIT 许可证，见 `LICENSE`。
