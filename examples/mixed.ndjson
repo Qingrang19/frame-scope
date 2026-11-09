@@ -1,0 +1,9 @@
+{"seq": 0, "timestamp": 0.0, "channels": [0.0, 0.841471, 0.909297]}
+{"seq": 1, "timestamp": 0.01, "channels": [0.099833, 0.891207, 0.863209]}
+{"seq": 2, "timestamp": 0.02, "channels": [0.198669, 0.932039, 0.808496]}
+{"seq": 3, "timestamp": 0.03, "channels": [0.29552, 0.963558, 0.745705]}
+{"seq": 4, "timestamp": 0.04, "channels": [0.389418, 0.98545, 0.675463]}
+{broken-json
+{"seq": 4, "timestamp": 0, "channels": [0, 0, 0]}
+{"seq": 7, "timestamp": 1, "channels": [0, 0, 0]}
+{"seq": 5, "timestamp": 2, "channels": [0, 0, 0]}
