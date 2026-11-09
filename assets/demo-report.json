@@ -1,0 +1,38 @@
+{
+  "lines": 9,
+  "blank_lines": 0,
+  "invalid_frames": 1,
+  "valid_frames": 8,
+  "duplicates": 1,
+  "out_of_order": 1,
+  "forward_gap_events": 1,
+  "forward_gap_slots": 2,
+  "timestamp_regressions": 1,
+  "channel_count": 3,
+  "channels": [
+    {
+      "channel": 0,
+      "count": 8,
+      "min": "0.0",
+      "max": "0.389418",
+      "mean": "0.1229300000000000000000000000000000000000",
+      "std_population": "0.1447066728653174445585540110502085395627"
+    },
+    {
+      "channel": 1,
+      "count": 8,
+      "min": "0",
+      "max": "0.98545",
+      "mean": "0.5767156250000000000000000000000000000001",
+      "std_population": "0.4485767051355145604157440631199603334892"
+    },
+    {
+      "channel": 2,
+      "count": 8,
+      "min": "0",
+      "max": "0.909297",
+      "mean": "0.5002712500000000000000000000000000000000",
+      "std_population": "0.3930286593696921486625326668827982924280"
+    }
+  ]
+}
